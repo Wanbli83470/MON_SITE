@@ -1,5 +1,7 @@
 body {
-	background-color: #F8F8FF;
+background: -moz-linear-gradient(top, #ffebad 0%, #7b95aa 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, #ffebad 0%,#7b95aa 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, #ffebad 0%,#7b95aa 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 }
 #header{
 	position: absolute;
@@ -7,6 +9,7 @@ body {
     top: 0; left: 0;
     justify-content: flex-start;
     border-right : 11px, solid, black;
+    box-shadow: 2px 2px 30px #FFFDF8;
     width : 100%;
 	height: 100px;
 	text-decoration:none;
@@ -123,4 +126,14 @@ width : 100%;
 height: 1754px;
 margin : auto;
 background-repeat: no-repeat;
+}
+
+h1{
+	font-size : 3em;
+	font-style : italic;
+	text-align:center
+}
+
+.lienactif{
+	color : white;
 }

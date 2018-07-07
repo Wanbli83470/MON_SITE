@@ -59,20 +59,14 @@ transition-duration : 1s;
 
 
 .page_blanche{
-
+margin-top:10%;
 background-color: white;
 width : 70%;
 height : 1080px;
 margin-left: auto;
 margin-right: auto;
+box-shadow: 2px 2px 30px #000000;
 }
-h1 {
-color : #272626;
-font-size:1.8em;
-font-style: italic
-}
-h1:hover{
-color: black}
 
 .logo{background-image:url("Python.svg");
 text-align:center;
@@ -90,14 +84,42 @@ height:100px;
 
 .code{background-image:url("code_python.png");
 width : 100%;
-height : 200px;
-
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-
+height : 300px;
+filter : blur(2px);
+background-attachment: fixed;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
 }
+
+.code_html
+
+{background-image:url("html.jpeg");
+width : 100%;
+height : 300px;
+filter : blur(2px);
+background-attachment: fixed;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+
+.PYTHON{
+filter : blur: none;
+position : float;
+text-align :center ;
+margin : auto;
+font-size : 3em;
+color : white}
 
 input{
 box-shadow:2px 2px 2px #3399FF }
+
+.CV{
+background-image:url("CV.jpg");
+width : 100%;
+height: 800px;
+margin : auto;
+background-repeat: no-repeat;
+}

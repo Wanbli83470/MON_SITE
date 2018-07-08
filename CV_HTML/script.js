@@ -13,5 +13,10 @@ $(function(){
 
     });
     });
+    
+$("h1").mouseover(function(){
+    $("h1").removeClass(".titre_graphisme");
+    $("h1").addClass(".titre_graphisme2");
+});
 
 });

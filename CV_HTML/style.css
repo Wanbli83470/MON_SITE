@@ -156,3 +156,18 @@ width : 100%;
 height: 400px;
 background-image : url("CMJN.svg")
 }
+
+.titre_graphisme{
+width : 100%;
+color : white;
+text-align : center;
+background-color : black
+}
+
+.titre_graphisme2{
+width : 100%;
+height : 50%;
+color : white;
+text-align : center;
+background-color : yellow
+}

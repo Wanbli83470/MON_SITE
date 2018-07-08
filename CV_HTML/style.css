@@ -151,3 +151,8 @@ background-image : url("fleche.svg");
 text-align:center;
 margin : auto
 }
+.cmjn{
+width : 100%;
+height: 400px;
+background-image : url("CMJN.svg")
+}
